@@ -4,10 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Flowers</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font-awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="inter-regular">
-    <header></header>
+    <header>
+      <nav class="display-flex container">
+        <!-- Nav Logo -->
+        <figure><img src="./assets/logo.png" alt="" /></figure>
+
+        <!-- Nav Items -->
+        <ul class="nav-items display-flex">
+          <li><a id="nav-home" href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About us</a></li>
+          <li>
+            <a id="nav-cart" href=""
+              ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
+            >
+          </li>
+        </ul>
+
+        <div class="cart">
+          <a id="nav-cart" href=""
+            ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
+          >
+        </div>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
   </body>
