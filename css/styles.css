@@ -15,7 +15,6 @@
 
 .container {
   max-width: 1140px;
-  display: flex;
   margin: auto;
 }
 
@@ -24,17 +23,20 @@
 }
 
 /* Header */
+
 /* Nav Styles */
-nav {
+.nav {
+  border: 1px solid red;
+  margin-top: 30px;
+  margin-bottom: 120px;
   justify-content: space-between;
-  padding-top: 30px;
 }
 
 .nav-items {
   justify-content: space-between;
   gap: 48px;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .nav-items li {
@@ -60,7 +62,7 @@ nav {
   display: none;
 }
 
-/* media query reponsive */
+/* media query responsive */
 @media screen and (max-width: 576px) {
   .nav-items {
     display: none;
@@ -69,9 +71,8 @@ nav {
     display: block;
   }
 
-  nav {
+  .nav {
     align-items: center;
-    justify-items: center;
-    padding: 13px 16px 0;
+    margin: 20px 16px 28px;
   }
 }
