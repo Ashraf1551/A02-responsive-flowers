@@ -174,4 +174,10 @@
     align-items: center;
     margin: 20px 16px 28px;
   }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28.5px 20px;
+  }
 }
