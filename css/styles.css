@@ -182,7 +182,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 28.5px 20px;
   }
-
+  .card {
+    width: 171px;
+  }
+  .card-img {
+    width: 100%;
+  }
   .plants-content {
     text-align: center;
     width: 336px;
