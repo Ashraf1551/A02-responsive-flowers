@@ -139,12 +139,40 @@
   padding: 20px 50px;
 }
 
+/* Flower Plants Love Section */
+.flower-love-section {
+  position: relative;
+}
+.flower-plants-love {
+  align-items: center;
+  gap: 5.3%;
+}
+
+.flowers-love-content {
+  width: 47%;
+}
+
+.flower-plants-love ul li {
+  margin-top: 30px;
+}
+
+.trusted-badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  bottom: 50%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+}
+
 /* media query responsive */
 @media screen and (max-width: 576px) {
   .banner-container {
     flex-direction: column-reverse;
   }
-
+  .flower-plants-love {
+    flex-direction: column;
+  }
   .banner-img {
     width: 100%;
   }
@@ -195,5 +223,27 @@
   }
   .card-btn {
     padding: 20px 30px;
+  }
+  .trusted-badge {
+    display: none;
+  }
+  .flower-love-section-img {
+    width: 95%;
+  }
+  .flowers-love-content {
+    width: 361px;
+  }
+  .flower-love-title {
+    font-size: 1.5rem;
+    margin-top: 18px;
+  }
+
+  .flowers-love-text {
+    margin-top: 10px;
+    font-size: 0.875rem;
+  }
+
+  .flower-plants-love ul li {
+    margin-top: 16px;
   }
 }
