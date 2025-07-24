@@ -176,8 +176,17 @@
   }
 
   .card-container {
+    align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 28.5px 20px;
+  }
+
+  .plants-content {
+    text-align: center;
+    width: 336px;
+    margin: auto;
+    margin-bottom: 49px;
   }
 }
