@@ -157,6 +157,7 @@
 }
 
 .trusted-badge {
+  filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
   width: 286px;
   height: 286px;
   position: absolute;
@@ -240,7 +241,7 @@
 
   .flowers-love-text {
     margin-top: 10px;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
   }
 
   .flower-plants-love ul li {
