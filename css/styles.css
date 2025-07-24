@@ -15,7 +15,7 @@
 
 .container {
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .display-flex {
@@ -24,6 +24,15 @@
 
 .primary-color {
   color: #e95a08;
+}
+
+.main > section {
+  margin-top: 120px;
+}
+
+.section-title {
+  font-size: 3.125rem;
+  font-weight: 700;
 }
 
 .section-description {
@@ -81,6 +90,55 @@
   margin-bottom: 13px;
 }
 
+/* Our Plants Section Styles */
+.plants-content {
+  text-align: center;
+  width: 888px;
+  margin: auto;
+  margin-bottom: 49px;
+}
+.plants-description {
+  margin-top: 16px;
+}
+
+/* Card Styles */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+}
+
+.card {
+  width: 270px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-description {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+
+.card-price {
+  font-weight: 700;
+}
+
+.card-btn {
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #e95a08;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
 /* media query responsive */
 @media screen and (max-width: 576px) {
   .banner-container {
@@ -114,7 +172,6 @@
 
   .nav {
     align-items: center;
-    justify-content: center;
     margin: 20px 16px 28px;
   }
 }
