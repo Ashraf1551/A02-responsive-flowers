@@ -327,6 +327,10 @@ footer > section > div:nth-child(3) ul li a {
   color: rgb(137, 135, 161);
 }
 
+footer {
+  margin-bottom: 50px;
+}
+
 /* media query responsive */
 @media screen and (max-width: 576px) {
   .banner-container {
@@ -458,6 +462,9 @@ footer > section > div:nth-child(3) ul li a {
   }
 
   /* footer */
+  footer {
+    margin-bottom: 70px;
+  }
   .footer {
     display: grid;
     justify-content: flex-start;
