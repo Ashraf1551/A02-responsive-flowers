@@ -93,6 +93,7 @@
   width: 50%;
   align-items: end;
 }
+
 .banner-left h1 {
   font-size: 4.1rem;
   font-weight: 700;
@@ -106,6 +107,7 @@
   margin: auto;
   margin-bottom: 49px;
 }
+
 .plants-description {
   margin-top: 16px;
 }
@@ -152,9 +154,11 @@
 .flower-love-section {
   position: relative;
 }
+
 .flower-plants-love {
   align-items: center;
   gap: 5.3%;
+  margin-top: 220px;
 }
 
 .flowers-love-content {
@@ -214,6 +218,7 @@
   height: 206px;
   text-align: center;
   align-content: center;
+  margin: 0 auto;
 }
 
 .ana-img {
@@ -226,6 +231,7 @@
   height: 206px;
   text-align: center;
   align-content: center;
+  margin: 0 auto;
 }
 
 .left-heading {
@@ -250,6 +256,7 @@
   height: 423.13px;
   text-align: center;
   align-content: center;
+  margin: 0 auto;
 }
 
 .zabo-shop-now {
@@ -345,9 +352,11 @@ footer {
   .banner-container {
     flex-direction: column-reverse;
   }
+
   .flower-plants-love {
     flex-direction: column;
   }
+
   .banner-img {
     width: 100%;
   }
@@ -365,6 +374,7 @@ footer {
   .nav-items {
     display: none;
   }
+
   .cart {
     display: block;
   }
@@ -384,32 +394,40 @@ footer {
     margin: auto;
     margin-bottom: 49px;
   }
+
   .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 28.5px 5px;
   }
+
   .card {
     width: 171px;
     margin: auto;
   }
+
   .card-img {
     width: 100%;
   }
+
   .card-btn {
     padding: 20px 30px;
   }
+
   .trusted-badge {
     display: none;
   }
+
   .flower-love-section-img {
     width: 95%;
   }
+
   .flowers-love-content {
     width: 361px;
   }
+
   .flower-love-title {
-    font-size: 1.5rem;
+    font-size: 1.9 rem;
     margin-top: 18px;
   }
 
@@ -437,18 +455,18 @@ footer {
   }
 
   .bloom-img {
-    width: 480px;
-    height: 230.13px;
+    width: 400px;
+    height: 209px;
   }
 
   .ana-img {
-    width: 480px;
-    height: 230.13px;
+    width: 400px;
+    height: 209px;
   }
 
   .zabo-img {
-    width: 480px;
-    height: 230.13px;
+    width: 400px;
+    height: 209px;
   }
 
   /* email section */
@@ -474,6 +492,7 @@ footer {
   footer {
     margin-bottom: 70px;
   }
+
   .footer {
     display: grid;
     justify-content: flex-start;
